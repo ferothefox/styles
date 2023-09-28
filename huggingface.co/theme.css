@@ -1,0 +1,77 @@
+:is(.dark .dark\:bg-gray-900), :is(.dark .dark\:bg-gray-925), :is(.dark .form-input-alt), :is(.dark .form-input:not([type="checkbox"])) {
+  background-color: #000000;
+}
+
+.dark .bg-white {
+  background-color: #000000;
+}
+
+:is(.dark .dark\:to-gray-900\/0) {
+  --tw-gradient-to: rgb(0 0 0 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-to-position: ;
+}
+
+:is(.dark .dark\:from-gray-900) {
+  --tw-gradient-from: #000000 var(--tw-gradient-from-position);
+  --tw-gradient-from-position: ;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+:is(.dark .dark\:from-gray-800\/30) {
+  --tw-gradient-from: rgb(31 41 55 / 0) var(--tw-gradient-from-position);
+  --tw-gradient-from-position: ;
+  --tw-gradient-to: rgb(31 41 55 / 0) var(--tw-gradient-from-position);
+  --tw-gradient-to-position: ;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+:is(.dark .dark\:bg-gray-700) {
+  background-color: #040404;
+}
+
+:is(.dark .dark\:border-gray-600), :is(.dark .dark\:border-gray-800) {
+  border-color: #090909;
+}
+
+:is(.dark .dark\:prose-pre\:bg-gray-900 :is(:where(pre):not(:where([class~="not-prose"] *)))) {
+  background-color: #000000;
+}
+
+:is(.dark .dark\:bg-gray-800) {
+  background-color: #121212;
+}
+
+/* .max-md\:hidden.grid-rows-\[auto\,1fr\,auto\].grid-cols-1.max-h-screen.grid > .dark\:from-gray-800\/30.text-sm.p-3.from-gray-50.bg-gradient-to-l.rounded-r-xl.gap-1.flex-col.flex.mt-0\.5 {
+  display: none;
+} */
+
+:is(.dark .dark\:hover\:bg-gray-700:hover) {
+  background-color: #121212;
+}
+
+:is(.dark .dark\:bg-gray-950) {
+  background-color: #000000;
+}
+
+:is(.dark .from-gray-50-to-white), :is(.dark .from-gray-50-to-white:hover) {
+--tw-gradient-from: #000000 var(--tw-gradient-from-position);
+--tw-gradient-from-position: ;
+--tw-gradient-to: rgba(17,24,39,0) var(--tw-gradient-from-position);
+--tw-gradient-stops: var(--tw-gradient-from),var(--tw-gradient-to);
+--tw-gradient-to: #000000 var(--tw-gradient-to-position);
+--tw-gradient-to-position: ;
+}
+
+
+:is(.dark .md\:from-gray-50-to-white), :is(.dark .md\:from-gray-50-to-white:hover) {
+  --tw-gradient-from: #000000 var(--tw-gradient-from-position);
+  --tw-gradient-from-position: ;
+  --tw-gradient-to: rgba(17,24,39,0) var(--tw-gradient-from-position);
+  --tw-gradient-stops: var(--tw-gradient-from),var(--tw-gradient-to);
+  --tw-gradient-to: #000000 var(--tw-gradient-to-position);
+  --tw-gradient-to-position: ;
+}
+
+.dark .border, .dark .border-b, .dark .border-gray-100, .dark .border-gray-200, .dark .border-l, .dark .border-r, .dark .border-t, .dark .divide-gray-100 > :not([hidden]) ~ :not([hidden]), .dark .divide-gray-200 > :not([hidden]) ~ :not([hidden]), .dark .divide-x > :not([hidden]) ~ :not([hidden]), .dark .divide-y > :not([hidden]) ~ :not([hidden]), :is(.dark .form-input-alt) {
+  border-color: #090909;
+}

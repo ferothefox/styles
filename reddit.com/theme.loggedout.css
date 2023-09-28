@@ -1,0 +1,6 @@
+@media (prefers-color-scheme: dark) {
+    :root:not(.theme-light) .theme-beta,
+    :root:not(.theme-light).theme-beta {
+        --color-neutral-background: #000000;
+    }
+}

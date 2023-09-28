@@ -1,0 +1,168 @@
+.navigation-settings, div.ad-dfp, div.header-link-exaroton, .sidebar, .help-center-articles, footer, .help.desktop, .server-b-tutorials, #placement-takeover, .vm-skin, .header-right, .navigation-server-detail, .server-info-box-head, .server-info-version-auto-update, .server-info-box-footer {
+    display: none !important
+}
+
+:root {
+    --color-dark-mode: #121212;
+    --color-dark: #000000;
+    --color-success: #0aa668;
+    --color-loading: #2d2d2d;
+}
+
+.server-info-container {
+    margin-bottom: 0;
+}
+
+.server-ip .btn-group .btn {
+    margin: 0;
+    background: unset;
+    color: white;
+}
+
+.main {
+    border-top-left-radius: 8px;
+    overflow: hidden;
+}
+
+.body>.main .content {
+    max-width: 876px;
+    margin: 0 auto;
+    overflow: unset;
+}
+
+.header .logo {
+    height: 1.5rem;
+}
+
+.header {
+    height: 2rem;
+}
+
+.navigation .item {
+    font-size: 16px;
+    padding: 8px 6px 8px 6px;
+}
+
+.navigation .item i {
+    font-size: 18px;
+    width: 24px;
+}
+
+.server-ip {
+    text-align: unset;
+    padding: 16px 24px;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+}
+
+.btn-group {
+    justify-content: unset;
+}
+
+.server-status .status {
+    font-size: 12px;
+    text-transform: uppercase;
+    justify-content: unset;
+    
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.btn-huge {
+    font-size: 14px !important;
+    padding: 6px 10px !important;
+}
+
+.btn-small.btn-notext {
+    border-radius: 9999px;
+    padding: 8px;
+}
+
+.server-info {
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.server-info-box .server-info-box-body {
+    padding: 12px;
+    font-size: 16px;
+}
+
+.status-console {
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.live-status-box {
+    width: 100%;
+    max-width: unset;
+    margin: 0;
+    border-radius: unset;
+/*     margin: 8px 0 0; */
+}
+
+.server-info-box .server-info-box-body {
+}
+
+.server-actions {
+    position: absolute;
+    top: 48px;
+    right: 16px;
+}
+
+.btn {
+    border-radius: 9999px !important;
+}
+
+.live-status {
+    margin: 0;
+}
+
+.live-status-box {
+    background: black;
+}
+
+.live-status-box-icon {
+    font-size: 24px;
+    opacity: 1;
+}
+
+.config-option-input {
+    border-radius: 12px;
+}
+
+.config-options-file {
+    border-radius: 14px;
+}
+
+.toggle label, .toggle label:before {
+    border-radius: 9999px;
+}
+
+.toggle label:before {
+    font-size: 16px !important;
+}
+
+.select {
+    border-radius: 14px;
+}
+
+.file {
+    margin: 0;
+}
+
+@media (max-width: 1000px) {
+    #theme-switch.dark .body>.main, #theme-switch.dark .body>.content, #theme-switch.dark .body>.main .content {
+        background: var(--color-dark);
+    }
+    
+    .server-actions {
+        position: absolute;
+        top: 58px;
+        right: 0px;
+    }
+    
+    .server-status {
+        margin: 0;
+    }
+}

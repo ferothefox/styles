@@ -1,0 +1,20 @@
+html, body, #content, body.theme-dark .s-post-summary__watched, .theme-dark__forced .s-post-summary__watched, body.theme-system .theme-dark__forced .s-post-summary__watched, .s-topbarm, .mdhelp, .mdhelp-tabs, .s-topbar, .s-topbar .s-topbar--searchbar .s-topbar--searchbar--input-group .s-input, .s-popover, body.unified-theme, body > .container, .s-input, .s-textarea, .wmd-help-button.active-help, .s-select > select {
+    background: black !important;
+    border: unset !important;
+}
+
+.flush-left, .bc-black-2, .bc-black-075, .question-page #answers .answer, ul.comments-list .comment > *, .wmd-button-bar, .wmd-button-row, .grippie, .snippet-code {
+    border: 0px solid transparent !important;
+}
+
+#sidebar, .site-footer, .s-navigation, .s-popover .s-popover--arrow::before, .s-popover .s-popover--arrow::after, nav, .aside-cta, .s-topbar--menu-btn {
+    display: none !important;
+}
+
+#mainbar, .mainbar  {
+    width: 100%;
+}
+
+.grippie {
+    background: #000
+}

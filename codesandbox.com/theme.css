@@ -1,0 +1,22 @@
+html, body {
+    background: #000;
+}
+
+:root, .t-fiRNOU {
+    --colors-neutral-bg-low: #000000;
+    --colors-neutral-bg-base: #000000;
+    --colors-neutral-bg-high: #050505;
+}
+
+.monaco-workbench {
+    --vscode-editor-background: #000000;
+    --vscode-editorGutter-background: #000000;
+}
+
+.cTDamw, .iimXQJ, .beVXvg, .imppXn, .gVqlRh, .ARQqD, .iUFjbI, .eVtJBn, .monaco-editor, .monaco-editor-background, .monaco-editor .inputarea.ime-input, .monaco-editor .margin, .c-jNeSig {
+    background: #000;
+}
+
+.monaco-editor .margin-view-overlays .line-numbers {
+    font-size: 11px;
+}

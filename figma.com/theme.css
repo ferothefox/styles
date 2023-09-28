@@ -1,0 +1,48 @@
+html, body, :root, [data-preferred-theme="dark"]:not([data-editor-theme="whiteboard"]) {
+    --ramp-grey-500-dark: #000000;
+    --ramp-grey-600-dark: #000000;
+    --ramp-grey-700-dark: #000000;
+    --ramp-grey-800-dark: #000000;
+    --ramp-grey-900-dark: #000000;
+    --color-conditionalborder: #000000;
+}
+
+.sidebar--section--SICyK:has(.base_upgrade_section--content--PPZ-d), .team_link--freeBadge--iDrGU, button[data-onboarding-key="community-tab"], .tiles_view--upgradeOverlay--qlCNP, .org_home_view_meta_content--sidebarDivider--q8iyh, .upgrade_section--sidebarDivider--YkeAz, .upgrade_section--upsellDescription--Nc7fZ {
+    display: none !important;
+}
+
+.help_widget--container--n8zsB, .filename_view--teamPaidStatusBadgeContainer--brwMH, .voice_toolbar--audioIconUnavailableSpan--aTs8G, .pages_panel--tabsHeader--eSE0P:not(.left_panel--content---9G9r > div > div) {
+    display: none !important;
+}
+
+/* .pages_panel--tab--M7qS8:last-child, .pages_panel--tab--M7qS8:last-child:after {
+    display: none !important;
+} */
+
+html, body, #react-page {
+    background: #000000;
+}
+
+#fullscreen-root .gpu-view-content {
+    background: #000000;
+
+}
+
+.toolbar_view--toolbar--PlT-m, .toolbar_view--leftButtonGroup--zCYLW, .toolbar_view--rightButtonGroup--3zDnW, .toolbar_styles--enabledButton--aJVqf {
+    background: #000000;
+    fill: #ffffff;
+    color: #ffffff;
+}
+
+.toolbar_view--toolbar--PlT-m.toolbar_view--figjamBorder--NIV2X {
+    border: unset;
+}
+
+#fullscreen-root .gpu-view-content canvas {
+    border-radius: 12px 12px 0 0;
+}
+
+.toolbar_styles--flyout--acOzD, .toolbar_view--iconButton--E-0jv {
+    border-radius: 8px;
+    height: 36px;
+}

@@ -1,0 +1,42 @@
+:root {
+    --activityBar-background: #000000;
+    --sideBar-background: #000000;
+    --sb-toolbar-background: #000000;
+    --sideBarSectionHeader-background: #090909;
+    --list-inactiveSelectionBackground: #090909;
+    --sb-page-background: #000000;
+    --terminal-background: #000000;
+    --editor-background: #000000;
+    --tab-activeBackground: #000000;
+    --tab-inactiveBackground: #000000;
+    --sb-menu-background: #000000;
+    --sb-card-background: #000000;
+    --sb-separator-base: #000000;
+    --sb-separator-alt: #000000;
+}
+
+html,
+body,
+.user-page {
+    background: #000000;
+}
+
+a._upgradeButton_lxe7p_104,
+a._whats_new_lxe7p_80,
+footer.Sidebar-footer-hnRCY,
+nav._Menu_v39aw_19 {
+    display: none;
+}
+
+
+.EditorTab-tab-WgXZG {
+    border-top: 2px solid transparent;
+}
+
+.EditorTab-tab_focused-llE9U {
+    border-top: 2px solid #1389fd;
+}
+
+button[aria-label="Firebase"] {
+    display: none;
+}

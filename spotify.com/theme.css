@@ -1,0 +1,20 @@
+html, body {
+  background: #000000;
+}
+
+.encore-dark-theme, .encore-dark-theme .encore-base-set {
+  --background-base: #000000;
+}
+
+.qJOhHoRcFhHJpEQ2CwFT.koyeY6AgGRPmyPITi7yO {
+  background: #000000;
+  border: 0;
+}
+
+div.T1xI1RTSFU7Wu94UuvE6, div.gHImFiUWOg93pvTefeAD, div.CoLO4pdSl8LGWyVZA00t {
+  background: #000 !important;
+}
+
+a[href="/download"], .main-view-container__mh-footer-container, aside[aria-label="Now Playing View"], button[aria-label="Now Playing View"], button[data-testid="fullscreen-mode-button"], #device-picker-icon-button, button[data-testid="control-button-queue"] {
+  display: none;
+}

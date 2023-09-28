@@ -1,0 +1,52 @@
+:root {
+    --yt-spec-base-background: #000000;
+    --app-drawer-scrim-background: #000000;
+}
+
+html[darker-dark-theme][dark],
+ytd-app[darker-dark-theme],
+body,
+#scrim.tp-yt-app-drawer,
+#contentContainer.tp-yt-app-drawer,
+ytd-app[darker-dark-theme] #guide-content.ytd-app,
+ytd-masthead[darker-dark-theme],
+#container.ytd-searchbox,
+#search-icon-legacy.ytd-searchbox,
+.yt-spec-touch-feedback-shape--overlay-touch-response .yt-spec-touch-feedback-shape__fill,
+#chips-wrapper.ytd-feed-filter-chip-bar-renderer,
+ytd-mini-guide-renderer,
+ytd-mini-guide-entry-renderer {
+    background: black;
+}
+
+#container.ytd-searchbox,
+#search-icon-legacy.ytd-searchbox {
+    border: 0
+}
+
+.sbdd_b {
+    background: unset;
+    border: 0;
+}
+
+.sbqs_c::before {
+    display: none;
+}
+
+.sbsb_a,
+.gsfs {
+    background: black;
+    color: #eee;
+}
+
+.sbsb_d {
+    background: #121212;
+}
+
+.sbfl_a {
+    display: none
+}
+
+#cinematics-container {
+    display: none !important;
+}

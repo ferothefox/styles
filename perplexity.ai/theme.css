@@ -1,0 +1,37 @@
+.dark .dark\:bg-offsetDark, .dark .dark\:bg-backgroundDark, .dark .dark\:bg-offsetPlusDark, .dark .md\:dark\:hover\:bg-offsetPlusDark:hover, .dark .md\:hover\:dark\:bg-offsetPlusDark:hover, .dark .dark\:focus\:bg-offsetDark:focus, .dark .dark\:focus\:ring-borderMainDark:focus {
+    background: black;
+    --tw-ring-color: black;
+}
+
+html.dark {
+    background: black;
+}
+
+.dark .dark\:bg-offsetPlusDark {
+    background: #121212
+}
+
+.dark .dark\:ring-borderMainDark {
+    border-color: black;
+}
+
+.dark .dark\:border-zinc-600 {
+    border: 0px solid transparent;
+}
+
+.rounded-l-full {
+    border-radius: 9999px
+}
+
+.dark .dark\:focus\:ring-borderMainDark:focus {
+    border-color: black !important;
+}
+
+.dark .dark\:focus\:ring-borderMainDark, .md\:block.hidden > .gap-x-xs.items-center.flex > .selection\:bg-opacity-70.dark\:selection\:bg-opacity-50.selection\:text-white.selection\:bg-super.text-super.font-medium.text-sm.font-sans.super.gap-x-xs.items-center.flex.px-sm.py-xs.rounded-full.border {
+    border-color: black !important;
+}
+
+textarea {
+    border: 0px solid transparent !important;
+    outline: 0 !important;
+}

@@ -1,0 +1,68 @@
+.z1gt3 {
+    --mc2: #000;
+}
+html, body, body.srp, body {
+    background: #000;
+}
+
+/* header */
+.sfbg {
+    background: #000
+}
+
+.sBbkle {
+    border-bottom: 1px solid transparent;
+}
+
+/* miniheader */
+.minidiv .sfbg {
+    background: #000;
+}
+
+/* searchbox */
+.RNNXgb {
+    background: #121212;
+}
+
+/* minisearchbox */
+.minidiv .RNNXgb {
+    background: #121212;
+    border: 1px solid transparent;
+}
+
+/* search result */
+.rsGxI.Ww4FFb, .Ww4FFb {
+    background: #000;
+}
+
+/* spotlight */
+.dG2XIf {
+    background: #000;
+}
+
+/* appbar */
+.appbar {
+    background: transparent;
+}
+
+/* converse header */
+.B6rPNd {
+    background: #000
+}
+
+.uooj9c {
+    background: #000;
+}
+
+.cuZcPe {
+    background: linear-gradient(transparent 95%,#000);
+}
+
+/* other ai stuff */
+.HnP70e {
+    background: #000;
+}
+
+.GVLmE {
+    background: linear-gradient(to right, rgba(32,33,36,0), #000 60%, #000)
+}

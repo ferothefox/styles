@@ -1,0 +1,16 @@
+:root .dark-theme {
+    --bard-color-main-container-background: #000000;
+    --bard-color-response-container-background: #000000;
+}
+
+.mdc-notched-outline__leading {
+    border-color: transparent !important
+}
+
+.mdc-notched-outline__trailing {
+    border-color: transparent !important;
+}
+
+.capabilities-disclaimer {
+    display: none;
+}

@@ -1,0 +1,68 @@
+html,
+body {
+    background: #000;
+    color: white;
+}
+
+.bg-uivory-100,
+.bg-uivory-200,
+.bg-uivory-300,
+.bg-uivory-400,
+.\[\&\[data-selected\]\]\:bg-white[data-selected],
+.\[\&\[data-highlighted\]\]\:bg-white[data-highlighted],
+.bg-white,
+.bg-white\/50,
+.bg-uivory-100\/50 {
+    background: #000;
+}
+
+.text-stone-900 {
+    color: #fff;
+}
+
+.from-uivory-100 {}
+
+.to-uivory-100\/0 {
+    --tw-gradient-to: hsl(0 0% 0%/0) var(--tw-gradient-to-position);
+}
+
+.from-uivory-100 {
+    --tw-gradient-from: hsl(0 0% 0%/1) var(--tw-gradient-from-position);
+    --tw-gradient-to: hsl(0 0% 0%/0) var(--tw-gradient-to-position);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.jHAFuN,
+.sc-cUfYYG {
+    display: none;
+}
+
+.bg-white\/70 {
+    background: hsla(0, 0%, 100%, .1)
+}
+
+.bg-uivory-100\/70 {
+    background: rgba(0, 0, 0, 0.1)
+}
+
+button.jEAUvx > img {
+    filter: invert(1)
+}
+
+div.sc-bCnriq > svg {
+    fill: white;
+    color: white;
+    filter: invert(1);
+}
+
+.hover\:bg-white\/50:hover {
+    background: hsla(0, 0%, 100%, .1)
+}
+
+fieldset.sc-csmVar {
+    background: hsla(0, 0%, 100%, .07)
+}
+
+img[alt="Anthropic"] {
+    filter: invert(1);
+}

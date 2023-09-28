@@ -1,0 +1,25 @@
+@media (prefers-color-scheme: dark) {
+    :root:not(.light),
+    :not(.light) ::backdrop {
+        --search-bgd-02: #000;
+        --search-bgd-03: #000;
+        --search-bgd-04: #000;
+        --search-bgd-06: #000;
+    }
+
+    :root:not(.light) .searchbox-wrapper::after {
+        display: none !important;
+    }
+}
+
+.searchbox-wrapper {
+    background: #000;
+}
+
+#searchform {
+    background: #000;
+}
+
+#submit-button {
+    background: #000;
+}

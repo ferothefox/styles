@@ -1,0 +1,31 @@
+[data-color-mode="light"][data-light-theme*="dark"], [data-color-mode="dark"][data-dark-theme*="dark"] {
+    --color-canvas-default: #000000;
+    --color-canvas-subtle: #000000;
+    --color-canvas-inset: #000000;
+    --color-border-default: transparent;
+    --color-border-muted: transparent;
+}
+
+html, body, .AppHeader .AppHeader-globalBar, .color-bg-inset, .color-bg-default, .input-contrast, .Box, .AppHeader .AppHeader-localBar, .gWjhfa, .btn, .Overlay, .fHiIQb, .kbjJSF, .hSXtjz, .fsSggy, .bJoYeS {
+    background: black !important;
+}
+
+.color-border-muted, .form-control, .form-select, .Box, .border-top, .UnderlineNav, .AppHeader .AppHeader-button, .btn, .kbjJSF, .qTqch, .cKxXWY, .iAjAax, .ldUAkr, .brFBoI, .Overlay, .fHiIQb, .kbjJSF, .hSXtjz, .fsSggy, .bItZsX {
+    border-color: transparent !important;
+}
+
+.color-shadow-medium, .UnderlineNav, .fsSggy {
+    box-shadow:  unset !important;
+}
+
+.team-left-column.mt-5.width-fit.border-bottom, .team-left-column, .fpwPAg {
+    display: none !important;
+}
+
+div.col-lg-8 {
+    width: 100%;
+}
+
+.AppHeader .AppHeader-globalBar .AppHeader-actions::before {
+    background: unset !important;
+}
