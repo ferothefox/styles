@@ -90,7 +90,7 @@ button,
 [class*="memberInner_"],
 label,
 input,
-[role="list"] > *,
+[role="list"]>*,
 [role="menuitem"],
 [role="listitem"],
 svg,
@@ -121,7 +121,9 @@ li[class*="channel_"]:has([href*="/store"], [href*="/shop"]),
 [href="/store"],
 [href="/shop"],
 nav>[class*="searchBar_"],
-[class*="falloweenBackgroundImage"], [class*="upsellContainer_"]  {
+[class*="falloweenBackgroundImage"],
+[class*="upsellContainer_"],
+[class*="upsellBanner_"] {
   display: none !important;
 }
 
