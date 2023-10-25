@@ -1,4 +1,5 @@
-.theme-dark {
+.theme-dark,
+.theme-amoled {
   --background-primary: #000000;
   --background-secondary: #000000;
   --background-secondary-alt: #000000;
@@ -10,8 +11,6 @@
   --background-modifier-accent: #000000;
   --background-modifier-selected: #000000;
   --background-modifier-hover: #000000;
-  --primary-600: #000000;
-  --primary-630: #000000;
 
   --primary-dark-400: var(--background-modifier-hover);
   --primary-dark-500: var(--background-accent);
@@ -35,85 +34,100 @@
   --scrollbar-auto-thumb: var(--background-secondary);
   --scrollbar-auto-track: transparent;
 
-  --green-thing: rgb(59, 165, 92);
   --default-text-color: var(--interactive-normal);
 }
 
-/* patches for things that dont use variables for some unknown reason */
-
-.theme-dark .control-1fl03->.container-2nx-BQ {
-  background-color: var(--background-modifier-selected) !important;
-}
-
-.theme-dark .control-1fl03->.container-2nx-BQ.disabled-3ipGAF {
-  background-color: var(--input-background) !important;
-}
-
-.theme-dark .control-1fl03->.container-2nx-BQ.checked-25WXMf {
-  background-color: var(--green-thing) !important;
-}
-
-.theme-dark .key-N5VmHN {
-  background-color: var(--background-modifier-selected);
-}
-
-/* message bar colors */
-
-.channelTextArea-1FufC0 {
-  --interactive-normal: var(--dark-bg-bg-color);
-  --interactive-hover: var(--dark-bg-bg-color-hover);
-  --interactive-active: var(--dark-bg-bg-color-hover);
-}
-
-.emojiButtonNormal-35P0_i>div {
+.theme-dark [class*="emojiButtonNormal_"]>div {
   filter: brightness(0.6);
 }
 
-.autocomplete-3NRXG8 {
-  --interactive-normal: var(--default-text-color);
-  --interactive-active: var(--default-text-color);
-}
-
-/* forum post divider */
-.divider-AZrXIA {
-  background-color: #000000;
-}
-
 /* customize community channel */
-.theme-dark .innerHeader-1cC3Fp:after {
+.theme-dark [class*="innerHeader_"]:after {
   background: linear-gradient(180deg, rgba(50, 52, 58, 0) 0, #000000);
 }
 
-.theme-dark .container-1um7CU {
+/* :not selectors are targeting server banners */
+.theme-dark [class*="container_"]:not([class*="hasBanner_"], [class*="hasBanner_"] > [class*="header_"], [class*="container__30406"], [class*="container__9f9f6"], [class*="container__590e2"]),
+.theme-dark [class*="tile_"],
+.theme-dark [class*="header_"]:not([class*="header__104ca"]),
+.theme-dark [class*="divider_"],
+.theme-dark [class*="emptyPage_"],
+.theme-dark [class*="scrollerContainer_"],
+.theme-dark [class*="pageWrapper_"],
+.theme-dark [class*="directoryModal_"],
+.theme-dark [class*="autocomplete_"] {
   background-color: #000000;
 }
 
-.theme-dark .container-2IKOsH,
-.theme-dark .header-3xB4vB {
-  background-color: #000000;
+/* Hide annoying and inaccessible Nitro decorations */
+[class*="avatarDecoration_"],
+[class*="profileEffects_"],
+[class*="profileEffects_"]>[class*="inner-"],
+[class*="profileEffects_"]>[class*="inner-"]>*,
+[class*="premiumFeatureBannerBackground_"],
+[class*="premiumFeatureBorder_"] {
+  display: none !important;
+  opacity: 0 !important;
+  width: 0px !important;
+  height: 0px !important;
+
+  position: absolute !important;
+  top: -9999px !important;
+  left: -9999px !important;
 }
 
-.theme-dark .emptyPage-2TGR7j,
-.theme-dark .scrollerContainer-y16Rs9 {
-  background-color: #000000;
+/* Clean up the UI */
+/* Use default cursor for clickable elements */
+a,
+button,
+[role="button"],
+[role="tab"],
+[role="radio"],
+[class*="link_"],
+[class*="folder_"],
+[class*="clickable_"],
+[class*="member_"],
+[class*="memberInner_"],
+label,
+input,
+[role="list"] > *,
+[role="menuitem"],
+[role="listitem"],
+svg,
+img {
+  cursor: default !important;
 }
 
-/* app directory */
-.theme-dark .directoryModal-YJsOMv {
-  background-color: #000000;
+/* Shrink buttons in channel toolbar */
+[class*="iconWrapper_"] {
+  width: 20px;
+  height: 20px;
+  display: grid;
+  place-content: center;
 }
 
-/* server discovery */
-.theme-dark .pageWrapper-2PwDoS {
-  background-color: #000000;
+[class*="iconWrapper_"]>svg {
+  height: 18px;
+  width: 18px;
 }
 
-/* activity status popout */
-.theme-dark .addGamePopout-2SKNIV {
-  background-color: #000000;
+/* Hide various elements */
+[class*="scrollableContainer__"]>div>[class*="buttons_"],
+div[class*="listItem_"]:has(div[aria-label="Explore Discoverable Servers"]),
+div[class*="akaBadge__"],
+div[class*="nicknames__"],
+[href="https://support.discord.com"],
+li[class*="channel_"]:has([href*="/store"], [href*="/shop"]),
+[href="/store"],
+[href="/shop"],
+nav>[class*="searchBar_"],
+[class*="falloweenBackgroundImage"], [class*="upsellContainer_"]  {
+  display: none !important;
 }
 
-/* slash commands */
-.theme-dark .autocomplete-3NRXG8 {
-  background-color: #000000;
+/* Make all-caps text their original casing */
+[class*="eyebrow_"],
+[class*="categoryText_"],
+[class*="container_"] {
+  text-transform: unset;
 }
