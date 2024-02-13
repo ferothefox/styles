@@ -1,0 +1,146 @@
+html,
+body,
+.zmBody,
+.zmWrapper,
+.zmCaRBlk,
+.zmCaRWra {
+    background: black;
+}
+
+.zmAppDark .zmLHSDark,
+.zmAppDark .zmLHSLight,
+.zmAppDark .zmLHSWhite,
+.zmAppDark .zmLHSZohoOne,
+.zwpAppTheme.zmAppDark.zmLHSDark,
+.zwpAppTheme.zmAppDark.zmLHSLight {
+    --app-lhs-bg: > #000000;
+}
+
+.zmSearch:not(.zmSActive),
+.zmAppDark .zmsettings-main-wrapper > .zmsettings-block {
+    background: #000000;
+    border: 0px solid;
+}
+
+.zmAppDark,
+.zmAppDark .zmLHSDark,
+.zmAppDark .zmLHSLight,
+.zmAppDark .zmLHSWhite {
+    --app-bg: #000000;
+    --app-tab-bg: #000000;
+    --app-grey-50: #000000;
+    --app-bg-rgb: 0, 0, 0;
+    --app-list-header-bg: #000000;
+    --app-border-color: #030303;
+    --app-list-border-color: #000000;
+    --app-list-header-border-color: #000000;
+    --app-list-hover-bg: #090909;
+    --app-list-hover-bg-dark: #121212;
+    --app-box-bg: #000000;
+    --app-tab-hover-bg: #000000;
+}
+
+.zmNewBtn > div > button {
+    background: #000000 !important;
+    color: #fff !important;
+    border-radius: 9999px !important;
+}
+
+/* .zmNewBtn > div > button > span {
+    font-size: 11px;
+}
+ */
+#zmllabelH,
+#zmStreamTree,
+.zmSearchAppSwitch,
+#menubutton-example-menu-1,
+.zmPVCmntBox,
+[data-tooltip="Chat about this email"],
+.jsSCRLR,
+[data-tooltip="Set a reminder for this Mail"],
+[data-tooltip="Generate new shareable link for this Mail."],
+#snooze,
+.jsEXTRA,
+div[title="Templates"],
+div[title="Snoozed"],
+div[title="Outbox"],
+.zmmenubar > .zmbtn--md.zmbtn--default.zmbtn--flat.zmbtn--mbtn.zmbtn,
+#conversation,
+#listingView,
+#customize,
+.zmAHRow.zmAHTitleRow#jsAppNameHeader,
+.zm_mLoad,
+#associateTask,
+#topBar > .zmTopNav,
+.zmCustomLogo,
+#zm_lftree,
+.zmSDot,
+.zmSLine,
+[aria-label="Tag As"] {
+    display: none !important;
+}
+
+html:not([dir=rtl]) .zmSearch .zmSBWrapper {
+    padding: 4px 20px;
+}
+
+.zmAHRow {
+    min-height: unset;
+}
+
+.zmAHRow.zmAHTitleRow#jsAppNameHeader {
+    padding: unset;
+}
+
+.SC_load {
+    color: #fff;
+    background: #000
+}
+
+.zmCaRLftBdr,
+.zmMailActions,
+.SC_sw .SC_pv:not(.SC_w100) .zmPVActionsBar,
+[aria-label="Search across Zoho"],
+.zmTreeTIcon {
+    display: none;
+}
+
+.zmTopBar,
+.zmTtab li,
+html:not([dir="rtl"]) .zmTtab li::before,
+html:not([dir="rtl"]) .zmTtab li {
+    border: 0px solid;
+}
+
+.zmList.selected,
+.zmList.selected:hover,
+.zmList.zmLSlct:hover,
+.zmLSlct {
+    background: #10151c
+}
+
+.zmdd,
+.SC_Pop.SC_rdrPop.zmAppDark,
+.SC_Pop.SC_rdrPop.zmAppDark .SC_RdrIcons.SC_phd,
+#topBar,
+.zmAppTab {
+    background: #000 !important;
+}
+
+.zmTreeNode.zmCurTree {
+    color: #fff;
+    font-weight: bold;
+    background-color: transparent;
+}
+
+.zmListInfoBox,
+.zmListInfoBox .zmListInfoRBlk,
+.zmListInfoBox .zmListInfoTxt {
+    gap: 8px;
+}
+
+.zmLDate,
+.zmLFolder,
+.zmLSize {
+    font-family: monospace, monospace;
+}
