@@ -1,0 +1,644 @@
+html,
+body,
+.route-container {
+  background: black;
+  color: white;
+}
+
+.zybook-panel {
+  background: #121212;
+}
+
+.animation-canvas {
+  background: #000000;
+}
+
+.zb-feedback .feedback-control-row .section-feedback-controls .feedback-prompt {
+  font-size: 1rem;
+}
+
+.content-tools-app div.code,
+.content-tools-app .code,
+.content-tools-app .zyblock,
+.zybook-section div.code,
+.zybook-section .code,
+.zybook-section .zyblock,
+.test-question div.code,
+.test-question .code,
+.test-question .zyblock,
+.unique div.code,
+.unique .code,
+.unique .zyblock {
+  background: #333;
+}
+
+.table-of-contents .toc-header-common,
+.table-of-contents .toc-header,
+.chapter-item .section-list-container,
+.zb-feedback
+  .feedback-control-row
+  .section-feedback-controls
+  .feedback-thumbs-pill {
+  background: #232323;
+  border: 1px solid #323232;
+}
+
+.content-tools-app .term,
+.zybook-section .term,
+.test-question .term,
+.unique .term,
+.content-tools-app pre,
+.zybook-section pre,
+.test-question pre,
+.unique pre {
+  color: white;
+}
+
+.section-item:not(:last-child) {
+  border-bottom: 1px solid #323232;
+}
+
+.toolbar,
+.top-toolbar,
+.zb-nav-menu {
+  background: black;
+  color: white;
+}
+
+.interactive-activity-container .activity-title-bar,
+.interactive-activity-container .activity-description,
+.interactive-activity-container .activity-type {
+  background: black;
+}
+
+.interactive-activity-container .activity-title-bar {
+  border: 0;
+}
+
+.zybook-panel .tabs .full-tab.active,
+.zybook-panel .tabs .full-tab.inactive,
+.ember-power-select-trigger {
+  background: #232323;
+  color: white;
+  border: 0px solid transparent;
+}
+
+.bread-crumbs a,
+.zb-author-menu .ember-basic-dropdown-trigger,
+.zb-menu .ember-basic-dropdown-trigger,
+.chapter-item .chapter-item-controls .chapter-title,
+.table-of-contents h3,
+.section-item
+  .section-title-link
+  .section-info
+  .section-title-info
+  .section-title,
+.static-container .static-container-title,
+.material-icons.grey.accessible,
+.material-icons-outlined.grey.accessible,
+.material-icons-two-tone.grey.accessible,
+.material-icons-round.grey.accessible,
+.material-icons-sharp.grey.accessible,
+.definition-match-payload .instruction-container,
+.zb-button.secondary.accessible,
+.zb-feedback .expanded-feedback .zb-control-row .accessible.more-info,
+.content-resource.container-content-resource
+  .container-resource-payload
+  details
+  > summary.secondary.accessible,
+.content-resource.container-content-resource.table
+  .table-insert-editor
+  .fr-toolbar
+  .accessible.fr-btn:last-child,
+.pythonTutor .ExecutionVisualizer #vcrControls .secondary.accessible.button,
+.availability-options .accessible.copy-pw-clipboard,
+.view-request-card .secondary.accessible.back-to-library-link,
+.review-adoption .secondary.accessible.back-to-library-link,
+.not-found-page .accessible.copy-pw-clipboard,
+.zybook-advanced-zylab-page .accessible.copy-pw-clipboard,
+.zybook-chapter-print-page .accessible.copy-pw-clipboard,
+.zybook-chapter-section-page .accessible.copy-pw-clipboard,
+.zybook-chapter-section-loading-page .accessible.copy-pw-clipboard,
+.zybook-create-section-page .accessible.copy-pw-clipboard,
+.zybook-edit-section-page .accessible.copy-pw-clipboard,
+.zybook-error-page .accessible.copy-pw-clipboard,
+.zylab-ui-page .accessible.copy-pw-clipboard,
+.zybook-unused-section-loading-page .accessible.copy-pw-clipboard,
+.zybook-unused-section-page .accessible.copy-pw-clipboard,
+.section-preview-modal .accessible.copy-pw-clipboard,
+.not-found-page
+  .section-header-row
+  .section-action-container
+  .secondary.accessible.edit-lab-link,
+.zybook-advanced-zylab-page
+  .section-header-row
+  .section-action-container
+  .secondary.accessible.edit-lab-link,
+.zybook-chapter-print-page
+  .section-header-row
+  .section-action-container
+  .secondary.accessible.edit-lab-link,
+.zybook-chapter-section-page
+  .section-header-row
+  .section-action-container
+  .secondary.accessible.edit-lab-link,
+.zybook-chapter-section-loading-page
+  .section-header-row
+  .section-action-container
+  .secondary.accessible.edit-lab-link,
+.zybook-create-section-page
+  .section-header-row
+  .section-action-container
+  .secondary.accessible.edit-lab-link,
+.zybook-edit-section-page
+  .section-header-row
+  .section-action-container
+  .secondary.accessible.edit-lab-link,
+.zybook-error-page
+  .section-header-row
+  .section-action-container
+  .secondary.accessible.edit-lab-link,
+.zylab-ui-page
+  .section-header-row
+  .section-action-container
+  .secondary.accessible.edit-lab-link,
+.zybook-unused-section-loading-page
+  .section-header-row
+  .section-action-container
+  .secondary.accessible.edit-lab-link,
+.zybook-unused-section-page
+  .section-header-row
+  .section-action-container
+  .secondary.accessible.edit-lab-link,
+.section-preview-modal
+  .section-header-row
+  .section-action-container
+  .secondary.accessible.edit-lab-link,
+.zybook-zylab-similarity-page .zb-toolbar .accessible.exit-button,
+.zybook-advanced-zylab-similarity-page .zb-toolbar .accessible.exit-button,
+.assignment-section-summary .accessible.next-section-link,
+.instructor-note-container .secondary.accessible.show-edit-instructor-note-icon,
+.modify-section .toolbar-container .toolbar-card .accessible.show-me-how-link,
+.subscribe-student-panel .secondary.accessible.already-paid,
+.zybook-configure-panel .panel-content .accessible.move-sections-button,
+.student-instructions-modal .accessible.copy-instructions-to-clipboard-button,
+.material-icons.blue-grey.accessible,
+.material-icons-outlined.blue-grey.accessible,
+.material-icons-two-tone.blue-grey.accessible,
+.material-icons-round.blue-grey.accessible,
+.material-icons-sharp.blue-grey.accessible,
+.zb-simple-expandable .toggle-button .title,
+.zb-checkbox.label-present label {
+  color: #eee;
+}
+
+.zb-nav-menu a,
+.zb-nav-menu button,
+.zb-nav-menu li {
+  color: #ccc;
+}
+
+.section-settings-menu,
+.unknown-content-resource,
+.not-found-page .time-remaining-toast,
+.zybook-advanced-zylab-page .time-remaining-toast,
+.zybook-chapter-print-page .time-remaining-toast,
+.zybook-chapter-section-page .time-remaining-toast,
+.zybook-chapter-section-loading-page .time-remaining-toast,
+.zybook-create-section-page .time-remaining-toast,
+.zybook-edit-section-page .time-remaining-toast,
+.zybook-error-page .time-remaining-toast,
+.zylab-ui-page .time-remaining-toast,
+.zybook-unused-section-loading-page .time-remaining-toast,
+.zybook-unused-section-page .time-remaining-toast,
+.section-preview-modal .time-remaining-toast,
+.insert-content.in-side-menu,
+.insert-content.in-section.expanded.inverted,
+.modify-section .zybook-exam-section .access-controls,
+.modify-section .zybook-exam-section .result-details,
+.modify-section .zybook-access-controls-section .access-controls,
+.modify-section .zybook-access-controls-section .result-details,
+.modify-section .toolbar-container .toolbar-card,
+.zb-card,
+.not-found-page .section-nav,
+.zybook-advanced-zylab-page .section-nav,
+.zybook-chapter-print-page .section-nav,
+.zybook-chapter-section-page .section-nav,
+.zybook-chapter-section-loading-page .section-nav,
+.zybook-create-section-page .section-nav,
+.zybook-edit-section-page .section-nav,
+.zybook-error-page .section-nav,
+.zylab-ui-page .section-nav,
+.zybook-unused-section-loading-page .section-nav,
+.zybook-unused-section-page .section-nav,
+.section-preview-modal .section-nav {
+  background: #121212;
+}
+
+.resource-container,
+.interactive-activity-container,
+.static-container,
+.zybook-section .instructor-note {
+  background: #202020;
+  border: 0px solid transparent;
+  box-shadow: unset;
+}
+
+.section-header,
+.student-behavior-insights .outlier-label,
+.lab-statistics-charts .chart-container .chart-label,
+.zybook-zylab-similarity-page .matches-container .matches-list-container h3,
+.zybook-advanced-zylab-similarity-page
+  .matches-container
+  .matches-list-container
+  h3,
+.about-page-modal h3,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.body-text,
+.validator-text,
+.strict-equal-assert-result .type-message,
+.ace-editor-container .drop-file-message,
+.ai-zylab-helper .ai-conversation-container .ai-message-container .ai-message,
+.zb-button,
+.zb-feedback .expanded-feedback .zb-control-row .more-info,
+.content-resource.container-content-resource
+  .container-resource-payload
+  details
+  > summary,
+.content-resource.container-content-resource.table
+  .table-insert-editor
+  .fr-toolbar
+  .fr-btn:last-child,
+.pythonTutor .ExecutionVisualizer #vcrControls .button,
+.availability-options .copy-pw-clipboard,
+.view-request-card .back-to-library-link,
+.review-adoption .back-to-library-link,
+.not-found-page .copy-pw-clipboard,
+.zybook-advanced-zylab-page .copy-pw-clipboard,
+.zybook-chapter-print-page .copy-pw-clipboard,
+.zybook-chapter-section-page .copy-pw-clipboard,
+.zybook-chapter-section-loading-page .copy-pw-clipboard,
+.zybook-create-section-page .copy-pw-clipboard,
+.zybook-edit-section-page .copy-pw-clipboard,
+.zybook-error-page .copy-pw-clipboard,
+.zylab-ui-page .copy-pw-clipboard,
+.zybook-unused-section-loading-page .copy-pw-clipboard,
+.zybook-unused-section-page .copy-pw-clipboard,
+.section-preview-modal .copy-pw-clipboard,
+.not-found-page .section-header-row .section-action-container .edit-lab-link,
+.zybook-advanced-zylab-page
+  .section-header-row
+  .section-action-container
+  .edit-lab-link,
+.zybook-chapter-print-page
+  .section-header-row
+  .section-action-container
+  .edit-lab-link,
+.zybook-chapter-section-page
+  .section-header-row
+  .section-action-container
+  .edit-lab-link,
+.zybook-chapter-section-loading-page
+  .section-header-row
+  .section-action-container
+  .edit-lab-link,
+.zybook-create-section-page
+  .section-header-row
+  .section-action-container
+  .edit-lab-link,
+.zybook-edit-section-page
+  .section-header-row
+  .section-action-container
+  .edit-lab-link,
+.zybook-error-page .section-header-row .section-action-container .edit-lab-link,
+.zylab-ui-page .section-header-row .section-action-container .edit-lab-link,
+.zybook-unused-section-loading-page
+  .section-header-row
+  .section-action-container
+  .edit-lab-link,
+.zybook-unused-section-page
+  .section-header-row
+  .section-action-container
+  .edit-lab-link,
+.section-preview-modal
+  .section-header-row
+  .section-action-container
+  .edit-lab-link,
+.zybook-zylab-similarity-page .zb-toolbar .exit-button,
+.zybook-advanced-zylab-similarity-page .zb-toolbar .exit-button,
+.assignment-section-summary .next-section-link,
+.instructor-note-container .show-edit-instructor-note-icon,
+.modify-section .toolbar-container .toolbar-card .show-me-how-link,
+.subscribe-student-panel .already-paid,
+.zybook-configure-panel .panel-content .move-sections-button,
+.student-instructions-modal .copy-instructions-to-clipboard-button,
+.multiple-choice-exam-question,
+.zb-nav-menu .chapter-labels .nav-item-label,
+.zb-nav-menu .chapter-labels .nav-item-label-empty,
+.zb-nav-menu .chapter-labels .nav-item-label-exam,
+.zb-nav-menu .chapter-labels .nav-item-label-hidden,
+.zb-nav-menu .chapter-labels .nav-item-label-lab,
+.zb-nav-menu .chapter-labels .nav-item-label-optional,
+.zb-nav-menu .section-labels .nav-item-label,
+.zb-nav-menu .section-labels .nav-item-label-empty,
+.zb-nav-menu .section-labels .nav-item-label-exam,
+.zb-nav-menu .section-labels .nav-item-label-hidden,
+.zb-nav-menu .section-labels .nav-item-label-lab,
+.zb-nav-menu .section-labels .nav-item-label-optional,
+.zb-progress-circular,
+.zb-footer,
+.bread-crumbs,
+.exercise-info-modal h2,
+.interactive-activity-container .activity-payload,
+.MLK__rows > .row .action.check,
+.class-statistics .lab-statistics-row .stat-container,
+.class-statistics .student-insights-row .stat-container,
+.student-behavior-insights .student-insights-row .insight-stat-container,
+.student-behavior-insights .insights-title,
+.instructor-view-student-submissions p,
+.instructor-view-student-submissions .manual-test,
+.lab-statistics-charts .chart-container,
+.zylabs-view-test-bench,
+.zylabs-view-test-bench .test .test-description,
+.test-results-modal .testing-instructions-list,
+.zystudio-group-activity .zystudio-manual-test,
+.zystudio-student-activity .zystudio-manual-test,
+.zylabs-edit .code,
+.zylabs-edit .run-message,
+.zylabs-edit .test-results-modal .testing-instructions-list,
+.zylabs-edit .save-lab-modal p,
+.zylabs-edit .save-lab-modal td,
+.zylabs-edit .lab-spec .section-card,
+.zylabs-edit .lab-spec .matlab-points,
+.file-io .instructions,
+.file-io .error-message,
+.develop-mode .instructions,
+.zylabs-edit .test-bench .test-summary,
+.zylabs-edit
+  .student-files
+  .file-editor
+  .editor-container
+  .ace-editor-header
+  .description,
+.mathworks-editor-card .message,
+.zybook-unit-test-help-page .zybook-section-title,
+.catalog-page h1,
+.catalog-page .class-instructions .instructions,
+.privacy-page,
+.tos-page,
+.view-request-card,
+.review-adoption,
+.zybook-chapter-add-lab-page .add-lab-card,
+.zybook-chapter-add-lab-page h3,
+.zybook-chapter-add-lab-page .description,
+.zybook-chapter-add-lab-page .selected-labs-text,
+.zybook-chapter-add-lab-page .zb-table table .name-column .lab-title,
+.zybook-getting-started-page .explanatory-text,
+.zybook-getting-started-page .video-list,
+.zybook-content-explorer-page .zybook-outline .term-definition,
+.zybook-content-explorer-printable-page .zybook-outline .term-definition,
+.zybook-content-explorer-page
+  .zybook-outline
+  .resource-info-container
+  .resource-caption,
+.zybook-content-explorer-printable-page
+  .zybook-outline
+  .resource-info-container
+  .resource-caption,
+.zybook-chapter-section-page
+  .assignment-section-announcement
+  .section-announcement-block-content,
+.zybook-chapter-section-page
+  .resubmit-assignment-announcement
+  .section-announcement-block-content,
+.zybook-chapter-section-page .assignment-completion-summary-card,
+.not-found-page .zybook-section,
+.zybook-advanced-zylab-page .zybook-section,
+.zybook-chapter-print-page .zybook-section,
+.zybook-chapter-section-page .zybook-section,
+.zybook-chapter-section-loading-page .zybook-section,
+.zybook-create-section-page .zybook-section,
+.zybook-edit-section-page .zybook-section,
+.zybook-error-page .zybook-section,
+.zylab-ui-page .zybook-section,
+.zybook-unused-section-loading-page .zybook-section,
+.zybook-unused-section-page .zybook-section,
+.section-preview-modal .zybook-section,
+.not-found-page .zybook-section .zybook-section-title,
+.zybook-advanced-zylab-page .zybook-section .zybook-section-title,
+.zybook-chapter-print-page .zybook-section .zybook-section-title,
+.zybook-chapter-section-page .zybook-section .zybook-section-title,
+.zybook-chapter-section-loading-page .zybook-section .zybook-section-title,
+.zybook-create-section-page .zybook-section .zybook-section-title,
+.zybook-edit-section-page .zybook-section .zybook-section-title,
+.zybook-error-page .zybook-section .zybook-section-title,
+.zylab-ui-page .zybook-section .zybook-section-title,
+.zybook-unused-section-loading-page .zybook-section .zybook-section-title,
+.zybook-unused-section-page .zybook-section .zybook-section-title,
+.section-preview-modal .zybook-section .zybook-section-title,
+.not-found-page .section-banner,
+.zybook-advanced-zylab-page .section-banner,
+.zybook-chapter-print-page .section-banner,
+.zybook-chapter-section-page .section-banner,
+.zybook-chapter-section-loading-page .section-banner,
+.zybook-create-section-page .section-banner,
+.zybook-edit-section-page .section-banner,
+.zybook-error-page .section-banner,
+.zylab-ui-page .section-banner,
+.zybook-unused-section-loading-page .section-banner,
+.zybook-unused-section-page .section-banner,
+.section-preview-modal .section-banner,
+.not-found-page .instructor-hidden-message,
+.zybook-advanced-zylab-page .instructor-hidden-message,
+.zybook-chapter-print-page .instructor-hidden-message,
+.zybook-chapter-section-page .instructor-hidden-message,
+.zybook-chapter-section-loading-page .instructor-hidden-message,
+.zybook-create-section-page .instructor-hidden-message,
+.zybook-edit-section-page .instructor-hidden-message,
+.zybook-error-page .instructor-hidden-message,
+.zylab-ui-page .instructor-hidden-message,
+.zybook-unused-section-loading-page .instructor-hidden-message,
+.zybook-unused-section-page .instructor-hidden-message,
+.section-preview-modal .instructor-hidden-message,
+.zybook-zylab-similarity-page,
+.zybook-advanced-zylab-similarity-page,
+.assignment-details,
+.assignment-due-date-lms-details,
+.assignment-summary,
+.zybook-section .instructor-note,
+.zybook-outline-filter,
+.zylab-table-section-header .info-text,
+.zylab-table-section-header .zybook-graphic-container .zybook-details,
+.table-of-contents .section-selection-header .header-title,
+.table-of-contents .activity-selection-header .header-title,
+.table-of-contents .configure-header .header-title,
+.table-of-contents .section-assignment-header .header-title,
+.table-of-contents .detail-text,
+.chapter-item .section-list-container .empty-chapter-text,
+.section-assignment-details .assignment-choices-container .no-activities-text,
+.lti-instructions-panel .no-assignments-text,
+.lti-instructions-panel .assignment-info-text,
+.lti-instructions-panel .hidden-assignments-text,
+.my-class-instructor-panel .panel-content .scrollable-content .manage-class-ul,
+.zybook-configure-panel .panel-content .instructions-text,
+.zybook-configure-panel .error-message,
+.about-page-modal,
+.about-page-modal .new-sections-table,
+.catalog-item-info-modal,
+.catalog-item-info-modal h2,
+.catalog-take-class-modal h1,
+.catalog-extension-modal,
+.manage-class-modal .warning-message,
+.manage-class-modal .confirmation-message,
+.manage-class-modal .updated-message,
+.python-course-modal,
+.request-refund-modal h1,
+.accessibility-modal h1,
+.student-instructions-modal h1,
+.student-instructions-modal .instructions-text,
+.mathworks-tos-modal,
+.view-receipt-modal,
+.add-zylab-options,
+.add-zylab-options h1,
+.clone-zylab,
+.clone-zylab h1,
+.zybook-ordering-preview .info-list,
+.webinar-info-modal h1,
+.zybook-extension-modal,
+.zybook-analytics-dashboard .highcharts-title,
+.zybook-analytics-dashboard .highcharts-axis-title,
+.zybook-analytics-dashboard .tooltip-container,
+.activity-filter,
+.not-found-page .section-nav .previous.accessible,
+.not-found-page .section-nav .next.accessible,
+.zybook-advanced-zylab-page .section-nav .previous.accessible,
+.zybook-advanced-zylab-page .section-nav .next.accessible,
+.zybook-chapter-print-page .section-nav .previous.accessible,
+.zybook-chapter-print-page .section-nav .next.accessible,
+.zybook-chapter-section-page .section-nav .previous.accessible,
+.zybook-chapter-section-page .section-nav .next.accessible,
+.zybook-chapter-section-loading-page .section-nav .previous.accessible,
+.zybook-chapter-section-loading-page .section-nav .next.accessible,
+.zybook-create-section-page .section-nav .previous.accessible,
+.zybook-create-section-page .section-nav .next.accessible,
+.zybook-edit-section-page .section-nav .previous.accessible,
+.zybook-edit-section-page .section-nav .next.accessible,
+.zybook-error-page .section-nav .previous.accessible,
+.zybook-error-page .section-nav .next.accessible,
+.zylab-ui-page .section-nav .previous.accessible,
+.zylab-ui-page .section-nav .next.accessible,
+.zybook-unused-section-loading-page .section-nav .previous.accessible,
+.zybook-unused-section-loading-page .section-nav .next.accessible,
+.zybook-unused-section-page .section-nav .previous.accessible,
+.zybook-unused-section-page .section-nav .next.accessible,
+.section-preview-modal .section-nav .previous.accessible,
+.section-preview-modal .section-nav .next.accessible,
+.material-icons.secondary.accessible,
+.material-icons-outlined.secondary.accessible,
+.material-icons-two-tone.secondary.accessible,
+.material-icons-round.secondary.accessible,
+.material-icons-sharp.secondary.accessible {
+  color: #eee;
+}
+
+.top-toolbar,
+.not-found-page .section-nav,
+.zybook-advanced-zylab-page .section-nav,
+.zybook-chapter-print-page .section-nav,
+.zybook-chapter-section-page .section-nav,
+.zybook-chapter-section-loading-page .section-nav,
+.zybook-create-section-page .section-nav,
+.zybook-edit-section-page .section-nav,
+.zybook-error-page .section-nav,
+.zylab-ui-page .section-nav,
+.zybook-unused-section-loading-page .section-nav,
+.zybook-unused-section-page .section-nav,
+.section-preview-modal .section-nav,
+.not-found-page .section-nav,
+.zybook-advanced-zylab-page .section-nav,
+.zybook-chapter-print-page .section-nav,
+.zybook-chapter-section-page .section-nav,
+.zybook-chapter-section-loading-page .section-nav,
+.zybook-create-section-page .section-nav,
+.zybook-edit-section-page .section-nav,
+.zybook-error-page .section-nav,
+.zylab-ui-page .section-nav,
+.zybook-unused-section-loading-page .section-nav,
+.zybook-unused-section-page .section-nav,
+.section-preview-modal .section-nav,
+.section-settings-menu,
+.unknown-content-resource,
+.not-found-page .time-remaining-toast,
+.zybook-advanced-zylab-page .time-remaining-toast,
+.zybook-chapter-print-page .time-remaining-toast,
+.zybook-chapter-section-page .time-remaining-toast,
+.zybook-chapter-section-loading-page .time-remaining-toast,
+.zybook-create-section-page .time-remaining-toast,
+.zybook-edit-section-page .time-remaining-toast,
+.zybook-error-page .time-remaining-toast,
+.zylab-ui-page .time-remaining-toast,
+.zybook-unused-section-loading-page .time-remaining-toast,
+.zybook-unused-section-page .time-remaining-toast,
+.section-preview-modal .time-remaining-toast,
+.insert-content.in-side-menu,
+.insert-content.in-section.expanded.inverted,
+.modify-section .zybook-exam-section .access-controls,
+.modify-section .zybook-exam-section .result-details,
+.modify-section .zybook-access-controls-section .access-controls,
+.modify-section .zybook-access-controls-section .result-details,
+.modify-section .toolbar-container .toolbar-card,
+.zb-card {
+  box-shadow: none;
+}
+
+#ember7, [href="http://support.zybooks.com"]
+{
+  display: none !important;
+}
+
+div.code:has(.highlight) {
+  padding: 2rem;
+  background: #181825;
+}
+
+.highlight .kn {
+  color: #cba6f7;
+}
+
+.highlight .nn,
+.highlight .nf {
+  color: #a6e3a1;
+}
+
+.highlight .k {
+  color: #89b4fa;
+}
+
+.highlight .n,
+.highlight .o,
+.highlight .p {
+  color: #cdd6f4;
+}
+
+.highlight .kd,
+.highlight .na {
+  color: #89b4fa;
+}
+
+.highlight .nc {
+  color: #f9e2af;
+}
+
+.highlight .kt,
+.highlight .mi {
+  color: #fab387;
+}
+
+.highlight .s {
+  color: #cba6f7;
+}
