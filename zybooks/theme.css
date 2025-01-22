@@ -760,5 +760,76 @@ div.code:has(.highlight) {
 }
 
 .section-nav {
-    background: transparent;
+    background: transparent !important;
+}
+
+.code-block-styling,
+.markdown-content-resource pre code,
+.lab-spec pre code,
+.two-reorderable-lists pre code,
+.block-ordering-pa-2-column pre code,
+.vm-it-lab-content-resource .vm-it-lab-markdown pre code,
+.zb-rich-text-editor .codeBlock,
+.zb-rich-text-editor .fr-view pre,
+.manage-exam-question .fr-class-code,
+.multiple-choice-exam-question .fr-class-code,
+.content-tools-app .fr-view pre,
+.zybook-section .fr-view pre,
+.test-question .fr-view pre,
+.unique .fr-view pre,
+.zybook-section.instructor-created-zybook-section .fr-view pre,
+.programming-code-output,
+.result-set-test .contracted-io,
+.result-set-test .concatenate-io,
+.zylabs-edit .test-bench .expected-output-test .contracted-io,
+.zylabs-edit .test-bench .expected-output-test .concatenate-io,
+.develop-container .develop-output,
+.zyde .zyde-tool-container .programming-code-output,
+.programming-submission-exam-question .develop-output,
+.zb-explanation .answers .forfeit-answer {
+    background: none;
+    color: white;
+}
+
+.zylab-signature .signature-content,
+.interactive-activity-container
+    .activity-title-bar
+    .activity-description
+    .title-bar-chevron-container
+    .lab-score,
+.interactive-activity-container
+    .activity-title-bar
+    .activity-description
+    .title-bar-chevron-container
+    .lti-score {
+    color: white;
+}
+
+.zb-button.grey,
+.student-instructions-modal .grey.copy-instructions-to-clipboard-button,
+.zybook-configure-panel .panel-content .grey.move-sections-button,
+.subscribe-student-panel .grey.already-paid,
+.modify-section .toolbar-container .toolbar-card .grey.show-me-how-link,
+.instructor-note-container .grey.show-edit-instructor-note-icon,
+.assignment-section-summary .grey.next-section-link,
+.zybook-advanced-zylab-similarity-page .zb-toolbar .grey.exit-button,
+.zybook-zylab-similarity-page .zb-toolbar .grey.exit-button,
+.view-request-card .grey.back-to-library-link,
+.review-adoption .grey.back-to-library-link,
+details > summary.grey,
+.pythonTutor .ExecutionVisualizer #vcrControls .grey.button,
+.content-resource.container-content-resource.table
+    .table-insert-editor
+    .fr-toolbar
+    .grey.fr-btn:last-child,
+.zb-feedback .expanded-feedback .zb-control-row .grey.more-info,
+.text-gray-600,
+.zybook-section.instructor-created-zybook-section h1,
+.zybook-section.instructor-created-zybook-section pre {
+    color: #aaa;
+}
+
+.fr-view > * {
+    background: none !important;
+    color: white !important;
 }
