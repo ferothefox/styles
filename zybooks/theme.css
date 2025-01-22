@@ -1,20 +1,20 @@
 html,
 body,
 .route-container {
-  background: black;
-  color: white;
+    background: black;
+    color: white;
 }
 
 .zybook-panel {
-  background: #121212;
+    background: #121212;
 }
 
 .animation-canvas {
-  background: #000000;
+    background: #000000;
 }
 
 .zb-feedback .feedback-control-row .section-feedback-controls .feedback-prompt {
-  font-size: 1rem;
+    font-size: 1rem;
 }
 
 .content-tools-app div.code,
@@ -29,18 +29,18 @@ body,
 .unique div.code,
 .unique .code,
 .unique .zyblock {
-  background: #333;
+    background: #333;
 }
 
 .table-of-contents .toc-header-common,
 .table-of-contents .toc-header,
 .chapter-item .section-list-container,
 .zb-feedback
-  .feedback-control-row
-  .section-feedback-controls
-  .feedback-thumbs-pill {
-  background: #232323;
-  border: 1px solid #323232;
+    .feedback-control-row
+    .section-feedback-controls
+    .feedback-thumbs-pill {
+    background: #232323;
+    border: 1px solid #323232;
 }
 
 .content-tools-app .term,
@@ -51,36 +51,36 @@ body,
 .zybook-section pre,
 .test-question pre,
 .unique pre {
-  color: white;
+    color: white;
 }
 
 .section-item:not(:last-child) {
-  border-bottom: 1px solid #323232;
+    border-bottom: 1px solid #323232;
 }
 
 .toolbar,
 .top-toolbar,
 .zb-nav-menu {
-  background: black;
-  color: white;
+    background: black;
+    color: white;
 }
 
 .interactive-activity-container .activity-title-bar,
 .interactive-activity-container .activity-description,
 .interactive-activity-container .activity-type {
-  background: black;
+    background: black;
 }
 
 .interactive-activity-container .activity-title-bar {
-  border: 0;
+    border: 0;
 }
 
 .zybook-panel .tabs .full-tab.active,
 .zybook-panel .tabs .full-tab.inactive,
 .ember-power-select-trigger {
-  background: #232323;
-  color: white;
-  border: 0px solid transparent;
+    background: #232323;
+    color: white;
+    border: 0px solid transparent;
 }
 
 .bread-crumbs a,
@@ -89,10 +89,10 @@ body,
 .chapter-item .chapter-item-controls .chapter-title,
 .table-of-contents h3,
 .section-item
-  .section-title-link
-  .section-info
-  .section-title-info
-  .section-title,
+    .section-title-link
+    .section-info
+    .section-title-info
+    .section-title,
 .static-container .static-container-title,
 .material-icons.grey.accessible,
 .material-icons-outlined.grey.accessible,
@@ -103,13 +103,13 @@ body,
 .zb-button.secondary.accessible,
 .zb-feedback .expanded-feedback .zb-control-row .accessible.more-info,
 .content-resource.container-content-resource
-  .container-resource-payload
-  details
-  > summary.secondary.accessible,
+    .container-resource-payload
+    details
+    > summary.secondary.accessible,
 .content-resource.container-content-resource.table
-  .table-insert-editor
-  .fr-toolbar
-  .accessible.fr-btn:last-child,
+    .table-insert-editor
+    .fr-toolbar
+    .accessible.fr-btn:last-child,
 .pythonTutor .ExecutionVisualizer #vcrControls .secondary.accessible.button,
 .availability-options .accessible.copy-pw-clipboard,
 .view-request-card .secondary.accessible.back-to-library-link,
@@ -127,53 +127,53 @@ body,
 .zybook-unused-section-page .accessible.copy-pw-clipboard,
 .section-preview-modal .accessible.copy-pw-clipboard,
 .not-found-page
-  .section-header-row
-  .section-action-container
-  .secondary.accessible.edit-lab-link,
+    .section-header-row
+    .section-action-container
+    .secondary.accessible.edit-lab-link,
 .zybook-advanced-zylab-page
-  .section-header-row
-  .section-action-container
-  .secondary.accessible.edit-lab-link,
+    .section-header-row
+    .section-action-container
+    .secondary.accessible.edit-lab-link,
 .zybook-chapter-print-page
-  .section-header-row
-  .section-action-container
-  .secondary.accessible.edit-lab-link,
+    .section-header-row
+    .section-action-container
+    .secondary.accessible.edit-lab-link,
 .zybook-chapter-section-page
-  .section-header-row
-  .section-action-container
-  .secondary.accessible.edit-lab-link,
+    .section-header-row
+    .section-action-container
+    .secondary.accessible.edit-lab-link,
 .zybook-chapter-section-loading-page
-  .section-header-row
-  .section-action-container
-  .secondary.accessible.edit-lab-link,
+    .section-header-row
+    .section-action-container
+    .secondary.accessible.edit-lab-link,
 .zybook-create-section-page
-  .section-header-row
-  .section-action-container
-  .secondary.accessible.edit-lab-link,
+    .section-header-row
+    .section-action-container
+    .secondary.accessible.edit-lab-link,
 .zybook-edit-section-page
-  .section-header-row
-  .section-action-container
-  .secondary.accessible.edit-lab-link,
+    .section-header-row
+    .section-action-container
+    .secondary.accessible.edit-lab-link,
 .zybook-error-page
-  .section-header-row
-  .section-action-container
-  .secondary.accessible.edit-lab-link,
+    .section-header-row
+    .section-action-container
+    .secondary.accessible.edit-lab-link,
 .zylab-ui-page
-  .section-header-row
-  .section-action-container
-  .secondary.accessible.edit-lab-link,
+    .section-header-row
+    .section-action-container
+    .secondary.accessible.edit-lab-link,
 .zybook-unused-section-loading-page
-  .section-header-row
-  .section-action-container
-  .secondary.accessible.edit-lab-link,
+    .section-header-row
+    .section-action-container
+    .secondary.accessible.edit-lab-link,
 .zybook-unused-section-page
-  .section-header-row
-  .section-action-container
-  .secondary.accessible.edit-lab-link,
+    .section-header-row
+    .section-action-container
+    .secondary.accessible.edit-lab-link,
 .section-preview-modal
-  .section-header-row
-  .section-action-container
-  .secondary.accessible.edit-lab-link,
+    .section-header-row
+    .section-action-container
+    .secondary.accessible.edit-lab-link,
 .zybook-zylab-similarity-page .zb-toolbar .accessible.exit-button,
 .zybook-advanced-zylab-similarity-page .zb-toolbar .accessible.exit-button,
 .assignment-section-summary .accessible.next-section-link,
@@ -189,13 +189,13 @@ body,
 .material-icons-sharp.blue-grey.accessible,
 .zb-simple-expandable .toggle-button .title,
 .zb-checkbox.label-present label {
-  color: #eee;
+    color: #eee;
 }
 
 .zb-nav-menu a,
 .zb-nav-menu button,
 .zb-nav-menu li {
-  color: #ccc;
+    color: #ccc;
 }
 
 .section-settings-menu,
@@ -232,16 +232,16 @@ body,
 .zybook-unused-section-loading-page .section-nav,
 .zybook-unused-section-page .section-nav,
 .section-preview-modal .section-nav {
-  background: #121212;
+    background: #121212;
 }
 
 .resource-container,
 .interactive-activity-container,
 .static-container,
 .zybook-section .instructor-note {
-  background: #202020;
-  border: 0px solid transparent;
-  box-shadow: unset;
+    background: #202020;
+    border: 0px solid transparent;
+    box-shadow: unset;
 }
 
 .section-header,
@@ -249,9 +249,9 @@ body,
 .lab-statistics-charts .chart-container .chart-label,
 .zybook-zylab-similarity-page .matches-container .matches-list-container h3,
 .zybook-advanced-zylab-similarity-page
-  .matches-container
-  .matches-list-container
-  h3,
+    .matches-container
+    .matches-list-container
+    h3,
 .about-page-modal h3,
 h1,
 h2,
@@ -267,13 +267,13 @@ h6,
 .zb-button,
 .zb-feedback .expanded-feedback .zb-control-row .more-info,
 .content-resource.container-content-resource
-  .container-resource-payload
-  details
-  > summary,
+    .container-resource-payload
+    details
+    > summary,
 .content-resource.container-content-resource.table
-  .table-insert-editor
-  .fr-toolbar
-  .fr-btn:last-child,
+    .table-insert-editor
+    .fr-toolbar
+    .fr-btn:last-child,
 .pythonTutor .ExecutionVisualizer #vcrControls .button,
 .availability-options .copy-pw-clipboard,
 .view-request-card .back-to-library-link,
@@ -292,43 +292,43 @@ h6,
 .section-preview-modal .copy-pw-clipboard,
 .not-found-page .section-header-row .section-action-container .edit-lab-link,
 .zybook-advanced-zylab-page
-  .section-header-row
-  .section-action-container
-  .edit-lab-link,
+    .section-header-row
+    .section-action-container
+    .edit-lab-link,
 .zybook-chapter-print-page
-  .section-header-row
-  .section-action-container
-  .edit-lab-link,
+    .section-header-row
+    .section-action-container
+    .edit-lab-link,
 .zybook-chapter-section-page
-  .section-header-row
-  .section-action-container
-  .edit-lab-link,
+    .section-header-row
+    .section-action-container
+    .edit-lab-link,
 .zybook-chapter-section-loading-page
-  .section-header-row
-  .section-action-container
-  .edit-lab-link,
+    .section-header-row
+    .section-action-container
+    .edit-lab-link,
 .zybook-create-section-page
-  .section-header-row
-  .section-action-container
-  .edit-lab-link,
+    .section-header-row
+    .section-action-container
+    .edit-lab-link,
 .zybook-edit-section-page
-  .section-header-row
-  .section-action-container
-  .edit-lab-link,
+    .section-header-row
+    .section-action-container
+    .edit-lab-link,
 .zybook-error-page .section-header-row .section-action-container .edit-lab-link,
 .zylab-ui-page .section-header-row .section-action-container .edit-lab-link,
 .zybook-unused-section-loading-page
-  .section-header-row
-  .section-action-container
-  .edit-lab-link,
+    .section-header-row
+    .section-action-container
+    .edit-lab-link,
 .zybook-unused-section-page
-  .section-header-row
-  .section-action-container
-  .edit-lab-link,
+    .section-header-row
+    .section-action-container
+    .edit-lab-link,
 .section-preview-modal
-  .section-header-row
-  .section-action-container
-  .edit-lab-link,
+    .section-header-row
+    .section-action-container
+    .edit-lab-link,
 .zybook-zylab-similarity-page .zb-toolbar .exit-button,
 .zybook-advanced-zylab-similarity-page .zb-toolbar .exit-button,
 .assignment-section-summary .next-section-link,
@@ -380,11 +380,11 @@ h6,
 .develop-mode .instructions,
 .zylabs-edit .test-bench .test-summary,
 .zylabs-edit
-  .student-files
-  .file-editor
-  .editor-container
-  .ace-editor-header
-  .description,
+    .student-files
+    .file-editor
+    .editor-container
+    .ace-editor-header
+    .description,
 .mathworks-editor-card .message,
 .zybook-unit-test-help-page .zybook-section-title,
 .catalog-page h1,
@@ -403,19 +403,19 @@ h6,
 .zybook-content-explorer-page .zybook-outline .term-definition,
 .zybook-content-explorer-printable-page .zybook-outline .term-definition,
 .zybook-content-explorer-page
-  .zybook-outline
-  .resource-info-container
-  .resource-caption,
+    .zybook-outline
+    .resource-info-container
+    .resource-caption,
 .zybook-content-explorer-printable-page
-  .zybook-outline
-  .resource-info-container
-  .resource-caption,
+    .zybook-outline
+    .resource-info-container
+    .resource-caption,
 .zybook-chapter-section-page
-  .assignment-section-announcement
-  .section-announcement-block-content,
+    .assignment-section-announcement
+    .section-announcement-block-content,
 .zybook-chapter-section-page
-  .resubmit-assignment-announcement
-  .section-announcement-block-content,
+    .resubmit-assignment-announcement
+    .section-announcement-block-content,
 .zybook-chapter-section-page .assignment-completion-summary-card,
 .not-found-page .zybook-section,
 .zybook-advanced-zylab-page .zybook-section,
@@ -543,7 +543,7 @@ h6,
 .material-icons-two-tone.secondary.accessible,
 .material-icons-round.secondary.accessible,
 .material-icons-sharp.secondary.accessible {
-  color: #eee;
+    color: #eee;
 }
 
 .top-toolbar,
@@ -593,52 +593,172 @@ h6,
 .modify-section .zybook-access-controls-section .result-details,
 .modify-section .toolbar-container .toolbar-card,
 .zb-card {
-  box-shadow: none;
+    box-shadow: none;
 }
 
-#ember7, [href="http://support.zybooks.com"]
+#ember7,
+[href="http://support.zybooks.com"]
 {
-  display: none !important;
+    display: none !important;
 }
 
 div.code:has(.highlight) {
-  padding: 2rem;
-  background: #181825;
+    padding: 2rem;
+    background: #181825;
 }
 
 .highlight .kn {
-  color: #cba6f7;
+    color: #cba6f7;
 }
 
 .highlight .nn,
 .highlight .nf {
-  color: #a6e3a1;
+    color: #a6e3a1;
 }
 
 .highlight .k {
-  color: #89b4fa;
+    color: #89b4fa;
 }
 
 .highlight .n,
 .highlight .o,
 .highlight .p {
-  color: #cdd6f4;
+    color: #cdd6f4;
 }
 
 .highlight .kd,
 .highlight .na {
-  color: #89b4fa;
+    color: #89b4fa;
 }
 
 .highlight .nc {
-  color: #f9e2af;
+    color: #f9e2af;
 }
 
 .highlight .kt,
 .highlight .mi {
-  color: #fab387;
+    color: #fab387;
 }
 
 .highlight .s {
-  color: #cba6f7;
+    color: #cba6f7;
+}
+
+.animation-caption,
+.zybook-chapter-section-page
+    .assignment-completion-summary-card
+    .header-row
+    .points-text-submit-button
+    .points-completed-text {
+    color: #bbb;
+}
+
+.test-result .sql-output-container .result-table-container table th,
+.develop-container
+    .sql-output.result-set-container
+    .result-table-container
+    table
+    th,
+.markdown-content-resource table th,
+.lab-spec table th,
+.two-reorderable-lists table th,
+.block-ordering-pa-2-column table th,
+.vm-it-lab-content-resource .vm-it-lab-markdown table th,
+.zb-rich-text-editor .zytable th,
+.multiple-choice-exam-question .zytable th,
+.content-resource.container-content-resource.table table th,
+.content-tools-app .table table th,
+.zybook-section .table table th,
+.test-question .table table th,
+.unique .table table th,
+.content-tools-app .table .dbTable th,
+.zybook-section .table .dbTable th,
+.test-question .table .dbTable th,
+.unique .table .dbTable th,
+.content-tools-app .zytable th,
+.zybook-section .zytable th,
+.test-question .zytable th,
+.unique .zytable th,
+.content-tools-app table.dbTable th,
+.content-tools-app .dbtable th,
+.zybook-section table.dbTable th,
+.zybook-section .dbtable th,
+.test-question table.dbTable th,
+.test-question .dbtable th,
+.unique table.dbTable th,
+.unique .dbtable th,
+.test-result .sql-output-container .result-table-container table,
+.develop-container
+    .sql-output.result-set-container
+    .result-table-container
+    table,
+.markdown-content-resource table,
+.lab-spec table,
+.two-reorderable-lists table,
+.block-ordering-pa-2-column table,
+.vm-it-lab-content-resource .vm-it-lab-markdown table,
+.zb-rich-text-editor .zytable,
+.multiple-choice-exam-question .zytable,
+.content-resource.container-content-resource.table table,
+.content-tools-app .table table,
+.zybook-section .table table,
+.test-question .table table,
+.unique .table table,
+.content-tools-app .table .dbTable,
+.zybook-section .table .dbTable,
+.test-question .table .dbTable,
+.unique .table .dbTable,
+.content-tools-app .zytable,
+.zybook-section .zytable,
+.test-question .zytable,
+.unique .zytable,
+.content-tools-app table.dbTable,
+.content-tools-app .dbtable,
+.zybook-section table.dbTable,
+.zybook-section .dbtable,
+.test-question table.dbTable,
+.test-question .dbtable,
+.unique table.dbTable,
+.unique .dbtable {
+    background: transparent;
+}
+
+:where(.zb-modal .zb-modal-content),
+.not-found-page .section-banner,
+.zybook-advanced-zylab-page .section-banner,
+.zybook-chapter-print-page .section-banner,
+.zybook-chapter-section-page .section-banner,
+.zybook-chapter-section-loading-page .section-banner,
+.zybook-create-section-page .section-banner,
+.zybook-edit-section-page .section-banner,
+.zybook-error-page .section-banner,
+.zylab-ui-page .section-banner,
+.zybook-unused-section-loading-page .section-banner,
+.zybook-unused-section-page .section-banner,
+.section-preview-modal .section-banner {
+    background: #121212;
+}
+
+.content-tools-app .console,
+.zybook-section .console,
+.test-question .console,
+.unique .console {
+    background: transparent;
+    border: 0px solid transparent;
+}
+
+.short-answer-question .question-container .zb-text-area {
+    background: #323232;
+    color: white;
+    border: 0px solid transparent;
+}
+
+.table-of-contents a:active,
+.table-of-contents a:link,
+.table-of-contents a:visited {
+    color: #bbb;
+}
+
+.section-nav {
+    background: transparent;
 }
