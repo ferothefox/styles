@@ -742,7 +742,8 @@ div.code:has(.highlight) {
 .content-tools-app .console,
 .zybook-section .console,
 .test-question .console,
-.unique .console {
+.unique .console,
+.highlighttable .linenos {
     background: transparent;
     border: 0px solid transparent;
 }
